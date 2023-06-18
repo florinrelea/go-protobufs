@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package bigstar.character;
+
+option go_package = "github.com/florinrelea/go-protobufs/bigstar/character";
+
+import "character/message.proto";
+
+service CharacterService {
+  rpc GetCharacters(AllGetCharacterRequest) returns (AllCharactersResponse);
+  rpc GetCharacterById(GetCharacterRequest) returns (GetCharacterResponse);
+}

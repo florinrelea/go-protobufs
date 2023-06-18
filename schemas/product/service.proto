@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package bigstar.product;
+
+option go_package = "github.com/florinrelea/go-protobufs/bigstar/product";
+
+import "product/message.proto";
+
+
+service ProductServie {
+  rpc GetProducts(AllProductsRequest) returns (AllProductsResponse);
+  rpc GetProductById(GetProductRequest) returns (GetProductResponse);
+  rpc ProductSearch(SearchRequest) returns (SearchResponse);
+}

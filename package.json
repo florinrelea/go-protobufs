@@ -1,0 +1,22 @@
+{
+  "name": "go-protobufs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florinrelea/go-protobufs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florinrelea/go-protobufs/issues"
+  },
+  "homepage": "https://github.com/florinrelea/go-protobufs#readme",
+  "dependencies": {
+    "ts-proto": "^1.149.0"
+  }
+}

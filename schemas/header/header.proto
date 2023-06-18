@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package bigstar;
+
+option go_package = "github.com/florinrelea/go-protobufs/bigstar/header";
+
+message UUID {
+  string value = 1;
+}
+
+message Header {
+  UUID span = 1;
+  UUID root_span = 2;
+}
