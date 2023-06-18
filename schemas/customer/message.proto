@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package bigstar.customer;
 
-option go_package = "github.com/florinrelea/go-protobufs/bigstar/customer";
+option go_package = "github.com/florinrelea/go-protobufs/go/customer";
 
 import "header/header.proto";
 
@@ -18,7 +18,7 @@ message SigninRequest {
   Customer customer = 2;
 }
 
-message SinginResponse {
+message SigninResponse {
   Header header = 1;
   Customer customer = 2;
 }

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package bigstar;
 
-option go_package = "github.com/florinrelea/go-protobufs/bigstar/header";
+option go_package = "github.com/florinrelea/go-protobufs/go/header";
 
 message UUID {
   string value = 1;

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package bigstar.product;
 
-option go_package = "github.com/florinrelea/go-protobufs/bigstar/product";
+option go_package = "github.com/florinrelea/go-protobufs/go/product";
 
 import "product/message.proto";
 

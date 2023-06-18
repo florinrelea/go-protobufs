@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package bigstar.character;
 
-option go_package = "github.com/florinrelea/go-protobufs/bigstar/character";
+option go_package = "github.com/florinrelea/go-protobufs/go/character";
 
 import "header/header.proto";
 
